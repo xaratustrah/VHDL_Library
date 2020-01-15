@@ -5,12 +5,13 @@
 
 This is a clock divider. The following three operation modes may be considered:
 
-    • If the clk_div_in factor is set to zero, output is set to logical zero.
-    • If the clk_div_in factor is set to 1 (one), then the clk_i is directly connected to the ouput clock.
-    • If the clk_div_in factor is set to any other integer number, the a clock division is made by that factor. For instance a value of 5 woluld result in the following waveform:
-    
-    
-    which means that for a period of 20ns (50MHz) the resulting waveform will have 	a positive clock edge every 100ns (10MHz).
+* If the clk_div_in factor is set to zero, output is set to logical zero.
+* If the clk_div_in factor is set to 1 (one), then the clk_i is directly connected to the ouput clock.
+* If the clk_div_in factor is set to any other integer number, the a clock division is made by that factor. For instance a value of 5 woluld result in the following waveform:
+       
+![](https://github.com/xaratustrah/VHDL_Library/blob/master/clk_divider/DOC/example_wave.png)
+
+which means that for a period of 20ns (50MHz) the resulting waveform will have a positive clock edge every 100ns (10MHz).
 
 
 ### Generics
