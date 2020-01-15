@@ -1,0 +1,9 @@
+
+Information on Library Component
+********************************
+
+28.02.2007/mk
+This is the RS232 transmitter written for FIB platform.
+
+
+

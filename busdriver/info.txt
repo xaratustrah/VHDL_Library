@@ -1,0 +1,11 @@
+
+Information on Library Component
+********************************
+
+26.01.2007/sh
+This component is obsolete. Please use inout_driver instead.
+
+
+29.11.2006/sh
+This component represents a bus driver element.
+

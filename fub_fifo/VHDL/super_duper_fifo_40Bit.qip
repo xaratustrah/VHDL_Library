@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "FIFO"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "super_duper_fifo_40Bit.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "super_duper_fifo_40Bit.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "super_duper_fifo_40Bit_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "super_duper_fifo_40Bit.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "super_duper_fifo_40Bit.cmp"]

@@ -1,0 +1,4 @@
+Start Simulator
+
+vsim -foreign "simlinkserver C:/Programme/MATLAB/R2010b/toolbox/edalink/extensions/modelsim/windows32/liblfmhdls_tmwvs.dll" work.pi_controller_and_feed_forward_tb
+

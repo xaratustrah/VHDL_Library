@@ -1,0 +1,48 @@
+format: addr-hb, addr-lb, data, checksum (xor)
+
+00 00 AA AA; register(0)=AA
+00 00 55 55; register(0)=55
+
+00 01 AA AB; register(1)=AA
+00 01 55 54; register(1)=55
+
+FF F1 00 0E; start-addr-hb=00
+FF F2 00 0D; start-addr-lb=00
+FF F2 01 0C; start-addr-lb=01
+
+FF F3 00 0C; end-addr-hb=00
+FF F4 09 02; end-addr-lb=09
+
+FF F0 01 0E; cmd=read_single
+FF F0 02 0D; cmd=read_block
+FF F0 04 0B; cmd=write_flash
+FF F0 08 07; cmd=read_flash
+     
+write some bytes and read block 0-9:
+00 00 AA AA 00 01 55 54 FF F1 00 0E FF F2 00 0D FF F4 09 02 FF F0 02 0D
+
+FF F1 00 0E 	FF F2 00 0D 	FF F0 01 0E
+00 F1 00 F1 	00 F2 00 F2 	00 F0 01 F1
+
+FF F1 00 0E	FF F2 00 0D	FF F3 00 0C	FF F4 00 0B	FF F0 04 0B	WRITE FLASH
+FF F1 00 0E	FF F2 00 0D	FF F3 00 0C	FF F4 00 0B	FF F0 08 07	READ FLASH
+
+FF F1 00 0E	FF F2 00 0D	FF F3 00 0C	FF F4 01 0A	FF F0 04 0B	WRITE FLASH
+FF F1 00 0E	FF F2 00 0D	FF F3 00 0C	FF F4 01 0A	FF F0 08 07	READ FLASH
+
+FF F1 00 0E	FF F2 00 0D	FF F3 00 0C	FF F4 00 0B 	<--- setzt die Start und Endadresse auf 00
+FF F1 00 0E	FF F2 02 0F	FF F3 00 0C	FF F4 02 09	<--- setzt die Start und Endadresse auf 02
+FF F1 00 0E	FF F2 03 0E	FF F3 00 0C	FF F4 03 08	<--- setzt die Start und Endadresse auf 03
+FF F1 00 0E	FF F2 04 09	FF F3 00 0C	FF F4 04 0F	<--- setzt die Start und Endadresse auf 04
+FF F1 00 0E	FF F2 05 08	FF F3 00 0C	FF F4 05 0E	<--- setzt die Start und Endadresse auf 05
+
+FF F1 00 0E	FF F2 02 0F	FF F3 00 0C	FF F4 05 0E	<--- 02 - 05
+00 02 AA A8 	00 03 AA A9 	00 04 AA AE	00 05 AA AF
+00 02 55 57 	00 03 55 56 	00 04 55 51	00 05 55 50
+
+FF F1 00 0E	FF F2 05 08	FF F3 00 0C	FF F4 09 02	<--- 05 - 09
+
+00 05 AA AF	00 06 AA AC	00 07 AA AD	00 08 AA A2	00 09 AA A3
+00 05 55 50	00 06 55 53	00 07 55 52	00 08 55 5D	00 09 55 5C
+
+FF F0 08 07	FF F0 02 0D	-- read flash read block

@@ -1,0 +1,4 @@
+set_global_assignment -name IP_TOOL_NAME "ID Info"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "id_info.vhd"]
+# set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram.bsf"]
+# set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram.cmp"]

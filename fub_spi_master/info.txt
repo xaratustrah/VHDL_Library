@@ -1,0 +1,8 @@
+
+Information on Library Component
+********************************
+
+20.12.2006/sh
+This is the implementation of the SPI driver in Master mode.
+
+

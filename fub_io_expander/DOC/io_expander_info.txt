@@ -1,0 +1,9 @@
+expander data:
+---------------
+
+expander data:
+z.B. x"6941"
+means 
+GP07 downto GP00 <= x"69"
+GP17 downto GP10 <= x"41"
+

@@ -1,6 +1,6 @@
 # FUB (FIB Universal Bus)
 
-A collection of VHDL IP Cores for FPGAs and CPLDs developed by [@martin-kumm](https://github.com/martin-kumm) and me [@xaratustrah](https://github.com/xaratustrah) in the time between 2006 and 2009.
+A collection of VHDL IP Cores for FPGAs and CPLDs developed by [@martin-kumm](https://github.com/martin-kumm) and me [@xaratustrah](https://github.com/xaratustrah) and also some of our then students (O. Bitterling, T. Guthier and T. Wollmann) in the time between 2006 and 2009.
 
 ## History
 
@@ -8,11 +8,11 @@ A collection of VHDL IP Cores for FPGAs and CPLDs developed by [@martin-kumm](ht
 
 Here is a picture of the FIB board:
 
-![FAB Board](https://raw.githubusercontent.com/xaratustrah/FUB/master/fib.png)
+![FAB Board](https://raw.githubusercontent.com/xaratustrah/VHDL\_Library/master/fib.png)
 
 Here is a picture of the FAB board in its Revision D, which was installed on top of the FIB board:
 
-![FAB Board](https://raw.githubusercontent.com/xaratustrah/FUB/master/fab_revd.jpg)
+![FAB Board](https://raw.githubusercontent.com/xaratustrah/VHDL\_Library/master/fab_revd.jpg)
 
 ## Usage
 

@@ -1,0 +1,6 @@
+set_global_assignment -name IP_TOOL_NAME "FUB Two Clock Sync"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fub_two_clk_sync.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "clk_sync_input.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "clk_sync_output.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "input_synchron.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "input_vector_sync.vhd"]

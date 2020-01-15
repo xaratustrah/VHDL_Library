@@ -1,0 +1,7 @@
+
+Information on Library Component
+********************************
+
+20.12.2006/sh
+This module calculates the given delay in ``ns'' in ticks for a given system clock
+frequency.

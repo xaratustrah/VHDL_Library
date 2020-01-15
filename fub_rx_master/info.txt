@@ -1,0 +1,8 @@
+
+Information on Library Component
+********************************
+
+29.05.2007/sh
+This component represents a master element for the FUB interface in the receiving mode.
+
+

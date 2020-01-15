@@ -1,0 +1,7 @@
+
+Information on Library Component
+********************************
+
+29.11.2006/sh
+This component represents a reset generator element.
+

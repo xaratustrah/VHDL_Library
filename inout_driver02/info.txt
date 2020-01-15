@@ -1,0 +1,9 @@
+
+Information on Library Component
+********************************
+
+09.05.2007/sh
+inout_driver02  component represents a driver for inout data type.
+It is based on the obsolete inout_driver element.
+
+

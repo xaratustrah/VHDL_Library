@@ -1,0 +1,5 @@
+set_global_assignment -name IP_TOOL_NAME "FUB Direct Optical Link TX"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "encoder.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fub_direct_opt_link_tx.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fub_input_adr_mux.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "parallel_seriell.vhd"]

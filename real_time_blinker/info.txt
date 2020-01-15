@@ -1,0 +1,8 @@
+
+Information on Library Component
+********************************
+
+24.08.2007/sh
+This module implements a real time blinker for use with LEDs, Buzzers,...
+
+

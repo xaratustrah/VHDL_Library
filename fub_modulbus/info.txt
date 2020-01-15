@@ -1,0 +1,8 @@
+
+Information on Library Component
+********************************
+
+01.06.2007/sh
+This library component includes the module bus component from BELAB and converts it to the FUB standard.
+
+

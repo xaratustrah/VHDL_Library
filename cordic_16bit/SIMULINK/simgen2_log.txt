@@ -1,0 +1,18 @@
+
+ --- RTL Import Startup ---
+
+
+
+ --- RTL Import Simulation ---
+
+
+(cordic_16bit build begins)
+
+(cordic_16bit build ends)
+
+Simulation elapsed time:      2.631 seconds.     (    1.749s in Simgen, 66.48% usage)
+
+
+ --- RTL Import Shutdown ---
+
+
