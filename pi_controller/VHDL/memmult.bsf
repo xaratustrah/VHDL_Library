@@ -1,0 +1,74 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 192 128)
+	(text "memmult" (rect 64 1 139 20)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 109 31 124)(font "Arial" ))
+	(port
+		(pt 0 40)
+		(input)
+		(text "data_in[31..0]" (rect 0 0 93 16)(font "Arial" (font_size 8)))
+		(text "data_in[31..0]" (rect 20 32 99 48)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "sload_data" (rect 0 0 74 16)(font "Arial" (font_size 8)))
+		(text "sload_data" (rect 20 48 83 64)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "clock" (rect 0 0 36 16)(font "Arial" (font_size 8)))
+		(text "clock" (rect 20 72 51 88)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 192 40)
+		(output)
+		(text "result[63..0]" (rect 0 0 81 16)(font "Arial" (font_size 8)))
+		(text "result[63..0]" (rect 104 32 173 48)(font "Arial" (font_size 8)))
+		(line (pt 192 40)(pt 176 40)(line_width 3))
+	)
+	(port
+		(pt 192 56)
+		(output)
+		(text "result_valid" (rect 0 0 75 16)(font "Arial" (font_size 8)))
+		(text "result_valid" (rect 109 48 173 64)(font "Arial" (font_size 8)))
+		(line (pt 192 56)(pt 176 56)(line_width 1))
+	)
+	(drawing
+		(text "data_in=signed" (rect 89 65 177 81)(font "Arial" (font_size 8)))
+		(text "coefficient=signed" (rect 73 77 177 93)(font "Arial" (font_size 8)))
+		(text "Total Latency = 11" (rect 69 89 177 105)(font "Arial" (font_size 8)))
+		(line (pt 0 0)(pt 193 0)(line_width 1))
+		(line (pt 193 0)(pt 193 129)(line_width 1))
+		(line (pt 0 129)(pt 193 129)(line_width 1))
+		(line (pt 0 0)(pt 0 129)(line_width 1))
+		(line (pt 16 24)(pt 177 24)(line_width 1))
+		(line (pt 177 24)(pt 177 105)(line_width 1))
+		(line (pt 16 105)(pt 177 105)(line_width 1))
+		(line (pt 16 24)(pt 16 105)(line_width 1))
+	)
+)
