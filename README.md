@@ -1,4 +1,4 @@
-# FUB (FIB Universal Bus)
+# VHDL Library
 
 A collection of VHDL IP Cores for FPGAs and CPLDs developed by [@martin-kumm](https://github.com/martin-kumm) and me [@xaratustrah](https://github.com/xaratustrah) and also some of our then students (O. Bitterling, T. Guthier and T. Wollmann) in the time between 2006 and 2009.
 
